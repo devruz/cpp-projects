@@ -1,5 +1,7 @@
 // devruz
 // lab_assignment3
+// Appliying conditional logic and boolean expressions to real-world problems 
+// while highlighting the need for explicit logical operators in range comparisons.
 #include <iostream>
 using namespace std;
 int main(){
@@ -13,10 +15,10 @@ int main(){
     if (salary < 1000) {
         tax = 0;
     }
-    else if (1001<=salary<=2000) {
+    else if (salary >= 1000 && salary <= 2000) {
         tax = salary * 0.20;
     }
-    else if  (2001<=salary<3000) {
+    else if  (salary > 2000 && salary <= 3000) {
         tax = 0.30;
     }
     else if (salary > 3000) {
@@ -76,4 +78,5 @@ int main(){
 
     return 0;
 }
+
 
