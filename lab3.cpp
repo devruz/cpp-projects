@@ -3,7 +3,8 @@
 #include <iostream>
 using namespace std;
 int main(){
-
+    
+    // The programm can calculates a tax based on your salary
     cout << "=== Task 1 ===\n" << endl;
     float salary, tax;
     cout << "Enter your salary in USD: ";
@@ -26,7 +27,7 @@ int main(){
     cout << "Tax payable: $" << tax << endl;
     cout << "Income after tax deduction: $" << income << endl;
 
-
+    // The program on Task 2 determines whether a number is positive oer negative
     cout << "\n=== Task 2 ===\n" << endl;
     int number;
     cout << "Enter your number: ";
@@ -41,7 +42,8 @@ int main(){
         cout << "Your number is 0!!!" << endl;
     }
 
-
+    // This program determines the grade of steel based on its hardness, 
+    // carbon content, and tensile strength.
     cout << "\n=== Task 3 ===\n" << endl;
     double carbon;
     int hardness, tensile, grade;
@@ -74,3 +76,4 @@ int main(){
 
     return 0;
 }
+
