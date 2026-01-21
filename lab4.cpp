@@ -1,5 +1,6 @@
 // devruz
-// lab assignment 4
+// lab assignment 4 
+// loops (do-while, while), conditional branching (if-else),
 #include<iostream>
 using namespace std;
 int main(){
@@ -64,3 +65,4 @@ int main(){
     return 0;
 
 }
+
