@@ -1,8 +1,11 @@
+// devruz
 // lab assignment 4
 #include<iostream>
 using namespace std;
 int main(){
 
+    // A program that keeps asking the user for a password 
+    // until they type the correct one
     cout << "-------- Task 1 ---------\n" << endl; 
 
     int password = 123456789;
@@ -19,6 +22,8 @@ int main(){
     }while(x != password);
     cout << "Access granted!" << endl;
 
+    // A program that keeps asking for student ages one by one, 
+    // until the user enters -1 (which means “stop”).
     cout << "\n-------- Task 2 -------\n\n";
 
     int age;
@@ -42,7 +47,8 @@ int main(){
     } else {
         cout << "No valid ages entered." << endl;
     }
-    
+
+    // Program to input a number and then calculate sum of its digits.
     cout <<"\n-------- Task 3 -------\n";
 
     int num, summ = 0;
@@ -56,4 +62,5 @@ int main(){
     cout << "Sum of digits of " << callnumber << " = " << summ << endl;
 
     return 0;
+
 }
