@@ -18,7 +18,7 @@ T minimum(T a, T b) {
 }
 int main() {
 
-    // program to calculate area of following figures using function ovrloading.
+    // program to calculate area of following figures using function overloading.
     cout << "\n===== Task 1 =====\n";
     int option;
     do {
@@ -61,7 +61,7 @@ int main() {
         }
     } while(option != 4); 
 
-    // Program that can analyze student grades
+    // Program that can analyze student grades.
     cout << "\n\n===== Task 2 =====\n\n";
     int grade;
     do {
@@ -124,4 +124,5 @@ void qualityPoints(int grade){
         return;
     }
     cout << "Your grade: " << result << endl;
+
 }
